@@ -1,8 +1,8 @@
-# Eat Safe, Love
+# Module 12 Challenge: Eat Safe, Love
 For this challenge, we used MongoDB to evaluate data from food establishments across the United Kingdom. 
-We imported our dependencies, started an instance of MongoClient, assigned our database and collection name to a variable and started our analysis.
+We imported our dependencies, started an instance of MongoClient, assigned our database and collection name to variables and started our analysis.
 
-In the first part of the challenge, we added a new restaurant to our our collection using "insert_one". After this, we performed a query to find the BusinessType ID for "Restaurant/Cafe/Canteen" and then updated our new restaurant with the ID we found. Then, we used "update_many" to convert latitude and longitude to decimal numbers and RatingValue to integers. 
+In the first part of the challenge, we added a new restaurant to our collection using "insert_one". After this, we performed a query to find the BusinessType ID for "Restaurant/Cafe/Canteen" and then updated our new restaurant with the ID we found. Then, we used "update_many" to convert latitude and longitude to decimal numbers and RatingValue to integers. 
 
 The second part of our challenge was to conduct exploratory analysis on our data in order to answer the following questions.
 
